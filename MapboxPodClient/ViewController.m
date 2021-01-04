@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "DemoWebMapSource.h"
 
 #import <Mapbox-iOS-SDK/Mapbox.h>
 
@@ -32,8 +31,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    id<RMTileSource> tileSource = [[DemoWebMapSource alloc] init];
+    // Use the default tile source supplied by the library.
+    id<RMTileSource> tileSource = [[RMXSimpleWebTileSource alloc] init];
     
     RMMapView* mapView =
         [[RMMapView alloc] initWithFrame:[[self view] bounds] andTilesource:tileSource];

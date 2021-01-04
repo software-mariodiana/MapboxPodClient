@@ -13,7 +13,6 @@
 		ACEF5E62259FBE2B00DA7ED6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEF5E61259FBE2B00DA7ED6 /* ViewController.m */; };
 		ACEF5E67259FBE2B00DA7ED6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEF5E66259FBE2B00DA7ED6 /* Assets.xcassets */; };
 		ACEF5E6A259FBE2B00DA7ED6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEF5E68259FBE2B00DA7ED6 /* LaunchScreen.storyboard */; };
-		ACF9890825A27C73000DCE8A /* DemoWebMapSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AC69AD3125A26C3F00011E8A /* DemoWebMapSource.m */; };
 		F3A13D9C47ED49692A3E4DBC /* libPods-MapboxPodClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 016E546736C5BEB5E7E4D868 /* libPods-MapboxPodClient.a */; };
 /* End PBXBuildFile section */
 
@@ -21,8 +20,6 @@
 		016E546736C5BEB5E7E4D868 /* libPods-MapboxPodClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MapboxPodClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8185B496E796DB355DC323B /* Pods-MapboxPodClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapboxPodClient.debug.xcconfig"; path = "Target Support Files/Pods-MapboxPodClient/Pods-MapboxPodClient.debug.xcconfig"; sourceTree = "<group>"; };
 		AC2893F425A2793400E5E29D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		AC69AD3025A26C3F00011E8A /* DemoWebMapSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoWebMapSource.h; sourceTree = "<group>"; };
-		AC69AD3125A26C3F00011E8A /* DemoWebMapSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoWebMapSource.m; sourceTree = "<group>"; };
 		AC9DF61A25A2737800D39FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = MapboxPodClient/Info.plist; sourceTree = SOURCE_ROOT; };
 		ACEF5E57259FBE2B00DA7ED6 /* MapboxPodClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapboxPodClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEF5E5B259FBE2B00DA7ED6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,8 +87,6 @@
 				ACEF5E5E259FBE2B00DA7ED6 /* AppDelegate.m */,
 				ACEF5E60259FBE2B00DA7ED6 /* ViewController.h */,
 				ACEF5E61259FBE2B00DA7ED6 /* ViewController.m */,
-				AC69AD3025A26C3F00011E8A /* DemoWebMapSource.h */,
-				AC69AD3125A26C3F00011E8A /* DemoWebMapSource.m */,
 				ACEF5E66259FBE2B00DA7ED6 /* Assets.xcassets */,
 				ACEF5E68259FBE2B00DA7ED6 /* LaunchScreen.storyboard */,
 				AC9DF61A25A2737800D39FD8 /* Info.plist */,
@@ -238,7 +233,6 @@
 				ACEF5E62259FBE2B00DA7ED6 /* ViewController.m in Sources */,
 				ACEF5E5F259FBE2B00DA7ED6 /* AppDelegate.m in Sources */,
 				ACEF5E5C259FBE2B00DA7ED6 /* main.m in Sources */,
-				ACF9890825A27C73000DCE8A /* DemoWebMapSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

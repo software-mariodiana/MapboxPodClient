@@ -31,8 +31,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Use the default tile source supplied by the library.
-    id<RMTileSource> tileSource = [[RMXSimpleWebTileSource alloc] init];
+    // Use Open Street Map for demo purposes.
+    id<RMTileSource> tileSource = [[RMOpenStreetMapSource alloc] init];
     
     RMMapView* mapView =
         [[RMMapView alloc] initWithFrame:[[self view] bounds] andTilesource:tileSource];
